@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resume - Murphy Amos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 10px;
+    }
+
+    header {
+      background-color: #444;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+    nav {
+      flex: 1 1 30%;
+      background-color: #eaeaea;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      margin-bottom: 8px;
+    }
+
+    nav p {
+      font-size: 14px;
+      margin-bottom: 16px;
+      color: #555;
+    }
+
+    nav a {
+      color: #0077b5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      flex: 1 1 68%;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: border 0.2s ease-in-out;
+    }
+
+    article:hover {
+      border-color: #0077b5;
+    }
+
+    article h1 {
+      font-size: 20px;
+      color: #222;
+      margin-bottom: 8px;
+    }
+
+    article p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .project {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .project img {
+      width: 350px;
+      height: auto;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .project p {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+
+      .project {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .project img {
+        width: 100%;
+      }
+
+      nav, article {
+        width: 100%;
+      }
+    }
+    
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: grey;
+  color: white;
+}
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Murphy Amos
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="https://GitHub.com/MurphyAmos" target="_blank">GitHub</a></li>
+        <p>Every recent project of mine is listed here for easy access and visibility.</p>
+        <li><a href="https://www.linkedin.com/in/murphy-amos-233969168?trk=people-guest_people_search-card" target="_blank">LinkedIn </a></li>
+        <p>I share updates about my professional experiences, development insights, and project highlights.</p>
+      </ul>
+    </nav>
+
+    <article>
+      <h1>Network Reconnaissance & Vulnerability Tool</h1>
+      <p><i>Python, Nmap, Google Gemini API</i></p>
+      <div class="project">
+        <img src="ProgrammingWork_Running_-_Oracle_VM_VirtualBox_5_5_2025_10_14_48_PM.png" alt="Recon Tool Screenshot">
+        <p>
+          This tool leverages the Google Gemini API to generate detailed vulnerability summaries for each scanned port.
+          It enhances reconnaissance speed and depth during penetration testing or network analysis.
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <h1>Heart Attack Prediction Model</h1>
+      <p><i>Python, Scikit-learn, Pandas, Matplotlib</i></p>
+      <div class="project">
+        <img src="Screenshot 2025-05-11 184150.png" alt="Heart Attack Prediction Model">
+        <p>
+          A machine learning model using decision trees to predict heart attack risk based on clinical indicators.
+          Achieved a reliable 78% accuracy through randomized test sets and repeated classifier training.
+        </p>
+      </div>
+    </article>
+    
+  </section>
+  <footer>
+    <p>Murphy Amos<br>
+Email: murphyamos9@gmail.com <br>
+  </footer>
+</body>
+</html> 
